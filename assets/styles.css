@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,200;1,400&family=Josefin+Sans:wght@100;200;300;400;600;700&family=Lora:ital,wght@0,600;1,400;1,500&family=Orbitron&family=Oxygen+Mono&family=Press+Start+2P&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&family=Varela&family=Varela+Round&display=swap');
+
+/* page styles */
+body { 
+    margin: 0;
+    font-family: "Sourcd Sans Pro", sans-serif;
+}
+
+/* styles for the navbar */
+.header {
+    background-color: #283593;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 45px;
+}
+
+.header h1 {
+    font-weight: 600;
+    font-size: 2rem;    
+}
+
+.header h1 a {
+    color: #fff;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-out;
+}
+
+.nav a:hover {
+    color: #c5cae9;
+    transform: rotate(6deg);
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav li {
+    margin-left: 20px;
+}
+
+/* Hero Section */
+.hero-outter {
+    background-color: #c5cae9;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.hero-inner {
+    width: 760px;
+}
+

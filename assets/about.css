@@ -13,14 +13,25 @@
 
 .about {
     width: 1130px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .pic {
     height: auto;
-    width: 302px;
+    width: 45%;
     
 }
 
 .text {
     width: 540px;
+}
+
+.text h2 {
+    font-size: 5.625rem;
+    font-weight: 600;
+    margin-bottom: .625rem;
 }

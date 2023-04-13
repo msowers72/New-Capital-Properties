@@ -38,7 +38,7 @@ you to contact Cpital-Properties for additional information.
 <!-- ![Tux, the Linux mascot](https://img.shields.io/badge/License-MIT-green) -->
   
  ## Deployed
- [Deployed on github]()
+ [Deployed on github](https://msowers72.github.io/New-Capital-Properties/index.html)
  
  
  ![images](./assets/img/architecture-g6b7a4bdc1_1920.jpg) 

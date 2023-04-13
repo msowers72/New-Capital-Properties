@@ -38,8 +38,8 @@ you to contact Cpital-Properties for additional information.
 <!-- ![Tux, the Linux mascot](https://img.shields.io/badge/License-MIT-green) -->
   
  ## Deployed
- [Workout Tracker Link]()
+ [Deployed on github]()
  
  
  ![images](./assets/img/architecture-g6b7a4bdc1_1920.jpg) 
- ![images](./assets/img/vlad-gorshkov-u6-jWHgwd44-unsplash.jpg) 
+ ![images](./assets/img/photo.jpg) 

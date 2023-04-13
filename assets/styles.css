@@ -58,6 +58,38 @@ body {
 
 
 .hero-inner {
-    width: 760px;
+    max-width: 760px;
 }
 
+.hero-inner h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+.hero-inner p {
+    font-size: 1.12rem;
+}
+
+/* Mian Section */
+.card {
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    /* margin-top: 100px;    */
+    margin-bottom: 20px;
+    height: 26rem;
+    width: 20.5rem;     
+  }
+
+  .features {
+    background-color: #e8eaf6;
+    padding: 60px 45px;
+  }
+
+  .features-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+  }

@@ -4,11 +4,14 @@
     box-sizing: border-box;    
 }
 
+
+
 .about-us {
     width: 100%;
     height: 100vh;
     background-color: #ddd;
-    padding: 90px 0;    
+    padding: 90px 0;  
+    display: flex; 
 }
 
 .about {
@@ -20,9 +23,9 @@
     justify-content: space-around;
 }
 
-.pic {
+.homepage.pic {
     height: auto;
-    width: 45%;
+    max-width: 45%;
     
 }
 
@@ -34,4 +37,84 @@
     font-size: 5.625rem;
     font-weight: 600;
     margin-bottom: .625rem;
+}
+
+.text h5 {
+    font-size: 1.375rem;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+}
+
+.text p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.link {
+    margin-top: 1.875rem;
+    
+}
+
+.contact {
+    text-decoration: none;
+    font-family: 1.125rem;
+    color: #fff;
+    background-color: #4070f4;
+    padding: 8px 25px;
+    border-radius: 6px;
+    border: none;
+    transition: 0.5s;
+}
+
+.contact:hover {
+    background: #000;
+}
+
+/* media query */
+@media (max-width: 1200px) {
+    .about {
+        gap: 20px;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    .text h2 {
+        font-size: 2.5rem;
+    }
+
+    .text h5 {
+        margin-bottom: none;
+    }
+    
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+    body {
+        position: absolute;
+        background-color: #ddd;
+    }
+
+    .homepage.pic {
+        height: auto;
+        width: 100%;
+        
+    }
+    .about {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .about-us {
+        margin-top: 25px;
+    }
 }
